@@ -1,0 +1,23 @@
+
+function sayHi(){
+	console.log("Hello my dear friend");
+}
+// after enter only variable you get message above written.
+// but if you want to get more one words;
+sayHi();
+sayHi();
+sayHi();
+// you should text like this as result will like this;
+Hello my dear friend
+Hello my dear friend
+Hello my dear friend
+
+// anoter example
+
+function sayHi(name){
+	console.log("Hello there " + name + "!");
+}
+sayHi("Maks");
+
+//will appear Hello there Maks!
+
